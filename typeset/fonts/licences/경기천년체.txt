@@ -1,0 +1,95 @@
+Copyright (c) 2017 경기도, (주)티랩, with Reserved Font Name 경기천년바탕.
+
+This Font Software is licensed under the Korea Open Government License
+(공공누리) Type 1: Attribution. The license is copied below, and is also
+available at: https://www.kogl.or.kr/info/license.do
+
+The font is a public work opened by its rights holder, 경기도.
+The opening is registered at:
+
+    https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13288410&menuNo=200023
+    https://www.kogl.or.kr/recommend/recommendDivView.do?recommendIdx=41131&division=font
+
+and rests upon:
+
+    저작권법 제24조의2 (공공저작물의 자유이용)
+    https://www.law.go.kr/법령/저작권법
+
+    문화체육관광부 고시 제2022-54호 (공공누리 이용조건 고시)
+    https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000216859
+
+    문화체육관광부 공고 제2023-0449호
+    https://www.mcst.go.kr/site/s_notice/notice/noticeView.jsp?pSeq=17752
+
+Required attribution:
+
+    경기도, 2017, 경기천년바탕, https://www.gg.go.kr/
+
+The name table of the font file records the producer under its former
+name, PYJ&TYPOLAB Inc., states "All rights reserved", and refers to
+http://www.typolab.co.kr/license. The producer now trades as (주)티랩 at
+https://tlabfont.com/, and that license page limits its own scope to the
+individual fonts sold in the store, which this font is not. The license
+granted by the rights holder is the one set out here.
+
+Modification:
+
+    The font bundled here is modified from the 220929 release. The TTF
+    and the OTF of the Regular weight carry different hanja glyphs; the
+    TTF ones appear to be those the typeface intends, so the hanja were
+    unified to the TTF drawings. The Bold weight carries hanja at the
+    Regular weight, which the emboldening of the unified drawings
+    replaces. The hangul and the kana are untouched.
+
+
+-----------------------------------------------------------
+공공누리 제1유형 - 출처표시
+-----------------------------------------------------------
+
+- 출처표시
+- 상업적, 비상업적 이용가능
+- 변형 등 2차적 저작물 작성 가능
+
+위 공공누리에 따라 이용자는 다음에서 제시하는 조건을 준수할 경우 공공저작물을
+상업적 활용 여부에 관계없이 무료로 자유롭게 이용하고 2차적 저작물 작성 등
+변형하여 이용할 수 있습니다.
+
+1. 출처 표시 의무
+
+ 가. 이용자는 공공저작물을 이용하는 경우, 이를 제공한 기관명과 작성자(해당
+     저작물에 표기된 바에 따름), 공표된 연도(발행일 기준) 등을 표시하여야
+     합니다.
+ 나. 온라인에서 출처 웹사이트에 대한 하이퍼링크를 제공하는 것이 가능한
+     경우에는 링크를 제공하여야 합니다.
+ 다. 자료를 제공한 공공기관이 이용자를 후원한다거나 공공기관과 이용자가
+     특수한 관계에 있는 것처럼 제3자가 오인할 수 있는 표시를 해서는 안됩니다.
+ 라. 자료를 제공한 공공기관의 홈페이지에서 무료로 다운로드가 가능한 자료인
+     경우에는 다른 사람이 쉽게 알 수 있도록 표시하여야 합니다.
+ <예시> "본 저작물은 '기관명 〇〇〇'에서 '〇〇년' 작성하여 공공누리 〇유형으로
+ 개방한 '저작물명(작성자:〇〇〇)'을 이용하였으며 해당저작물은 '기관명 〇〇〇,
+ 홈페이지 주소'에서 무료로 다운로드 받으실 수 있습니다."
+
+2. 저작인격권의 존중
+
+공공저작물을 변경 이용하는 경우에도 저작인격권을 존중하는 범위 내에서
+이용하여야 합니다.
+
+ <저작인격권을 침해할 수 있는 변경 이용의 예시>
+
+ ①예술적 가치를 표현하기 위해 창작된 저작물을 외설적 광고에 이용하여
+  원저작자의 명예를 훼손하는 경우
+ ②연구보고서의 연구성과나 통계수치 등을 수정하여 제3자로 하여금 착오를
+  불러일으킬 수 있는 경우
+ ③일부를 잘라 이용한 사진저작물이 원저작자가 표현하고자 하는 내용과 현저한
+  차이를 가져오는 경우 등
+
+3. 공공기관의 면책
+
+ 가. 공공기관은 공공저작물의 정확성이나 지속적인 제공 등을 보장하지 않습니다.
+ 나. 공공기관은 이용자가 공공저작물을 이용함으로써 발생할 수 있는 어떠한
+     손해나 불이익에 대해서도 공공기관 및 그 직원은 책임을 지지 않습니다.
+
+4. 이용허락조건 위반의 효과
+
+이용자는 공공누리의 이용허락의 조건 중 어느 하나라도 위반한 경우 이용허락이
+자동으로 종료되며, 이용자는 즉시 공공저작물의 이용을 중단해야 합니다.
