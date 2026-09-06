@@ -1,0 +1,69 @@
+                             THE KURT ETHOS
+
+Kurt is a low-level, general-purpose programming language for systems
+programming. It exists to reach where other languages stop: the level
+closest to the machine, where the programmer must be able to say exactly
+what happens.
+
+This document states what Kurt is and what it must remain.
+
+
+                                Identity
+
+Kurt is, and shall remain, a low-level systems language: it does not
+stand between the programmer and the machine, and it is bound to no
+vendor, platform, or era. A language raised above the machine — managed,
+hosted, or otherwise removed from it — is not Kurt, whatever it is
+called.
+
+
+                               Principles
+
+    1. The machine is a machine. A machine is caused to act by every
+       condition, and alike by the same, and Kurt describes it as it
+       is. That something went wrong never makes what happened
+       meaningless: the machine still acted, and Kurt does not deny it.
+
+    2. The specification is sovereign. The specification is the sole
+       definition of Kurt, and nothing else is. A language that adopts
+       the constraints of its tools as its own becomes their servant.
+       Where the specification defines behaviour, that behaviour holds.
+       Where it cannot fix a result, it shall say so rather than remain
+       silent.
+
+    3. Transparency. Special semantics arises only from a special
+       mechanism; an ordinary mechanism carries only ordinary meaning.
+       A construct means what the specification or the programmer
+       defines and nothing else, with nothing settled out of sight.
+
+    4. The fewest assumptions. Kurt assumes as little as it can and
+       states what it assumes. It does not ask the programmer to trust
+       what it has not written down.
+
+    5. Acceptance. Every action carries intent; to call something an
+       error requires context, and prohibition requires reason. So Kurt
+       does not forbid by arbitrary judgement: it permits the dangerous,
+       does not condemn it, and makes the danger known.
+
+    6. Simplicity. Where the principles above leave a choice, take the
+       simplest and most beautiful design. Kurt is not bound by legacy,
+       and carries none of it forward.
+
+
+                               Permanence
+
+The identity and principles above are perpetual in substance. Their
+wording may be refined for more precise expression, but the philosophy
+they embody may never be weakened, narrowed, or set aside, whatever the
+reviser’s authority; nor may refinement serve as a disguise for doing
+so. A revision that violates this merely produces something that is not
+Kurt.
+
+
+                                Standing
+
+This document states the philosophy; the philosophy binds. Every
+property of Kurt is bound by it, and whatever contradicts it is no
+longer Kurt. A corporation or other power may fork the specification
+under a name of its own, but it cannot make what is not Kurt and call
+it Kurt. Kurt is defined by the philosophy, not by who holds it.
