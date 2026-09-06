@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>$maintitle$</title>
+<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+<div class="titlepage">
+<p class="kicker">$kicker$</p>
+<hr class="rule">
+<p class="maintitle">$maintitledisp$</p>
+<p class="edition">$edition$</p>
+<hr class="thin">
+<div class="imprint">
+<p>$issline$</p>
+<p class="author">한울</p>
+</div>
+<p class="licence">&#169; $year$ 한울.<br>Licensed under 크리에이티브 커먼즈 저작자표시 4.0 국제 공중 라이선스.</p>
+</div>
+
+$if(toc)$
+<div id="TOC">
+<p class="toc-title">Contents</p>
+<ul>
+<li><a href="#foreword">Foreword</a></li>
+</ul>
+$table-of-contents$
+</div>
+$endif$
+
+<div class="frontmatter">
+<h1 id="foreword">Foreword</h1>
+<p>$foreword$</p>
+<p class="colophon"><strong>Colophon.</strong> $colophon$</p>
+</div>
+
+$body$
+</body>
+</html>
