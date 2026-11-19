@@ -1,0 +1,92 @@
+/* Kurt specification print stylesheet — CSS Paged Media (WeasyPrint). */
+
+/* Fallback order: EB Garamond -> Garamond-Math -> GyeonggiBatangOTF -> Noto Serif.
+   Each name is the family the font file itself declares; a name that differs
+   from it is not matched, and the text falls back to a system font. */
+@font-face { font-family:"EB Garamond"; font-weight:normal; font-style:normal;
+             src:url("fonts/EBGaramond-Regular.ttf"); }
+@font-face { font-family:"EB Garamond"; font-weight:bold;   font-style:normal;
+             src:url("fonts/EBGaramond-Bold.ttf"); }
+@font-face { font-family:"EB Garamond"; font-weight:normal; font-style:italic;
+             src:url("fonts/EBGaramond-Italic.ttf"); }
+@font-face { font-family:"EB Garamond"; font-weight:bold;   font-style:italic;
+             src:url("fonts/EBGaramond-BoldItalic.ttf"); }
+@font-face { font-family:"Garamond-Math";
+             src:url("fonts/Garamond-Math.otf"); }
+@font-face { font-family:"GyeonggiBatangOTF"; font-weight:normal;
+             src:url("fonts/GyeonggiBatang-Regular.otf"); }
+@font-face { font-family:"GyeonggiBatangOTF"; font-weight:bold;
+             src:url("fonts/GyeonggiBatang-Bold.otf"); }
+@font-face { font-family:"Noto Serif"; font-weight:normal;
+             src:url("fonts/NotoSerif-Regular.ttf"); }
+@font-face { font-family:"Noto Serif"; font-weight:bold;
+             src:url("fonts/NotoSerif-Bold.ttf"); }
+@font-face { font-family:"Source Code Pro"; font-weight:normal;
+             src:url("fonts/SourceCodePro-Regular.ttf"); }
+@font-face { font-family:"Source Code Pro"; font-weight:bold;
+             src:url("fonts/SourceCodePro-Bold.ttf"); }
+
+@page {
+  size: A4;
+  margin: 2.5cm;
+  @bottom-center { content: counter(page); font-family:"EB Garamond"; font-size:10pt; }
+}
+@page :first { @bottom-center { content: none; } }
+
+html {
+  font-family:"EB Garamond","Garamond-Math","GyeonggiBatangOTF","Noto Serif",serif;
+  font-size: 10pt;
+  line-height: 1.34;
+}
+body { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+p { margin: 0 0 .55em 0; }
+sub, sup { font-size: .72em; line-height: 0; }
+.sum, .floor, .ceil { white-space: nowrap; }
+hr { border: none; border-top: .5pt solid #000; margin: 1.2em 0; }
+
+h1, h2, h3, h4, h5 { font-weight: bold; line-height: 1.18; page-break-after: avoid; }
+h1 { font-size: 24pt; margin: 0 0 12pt 0; page-break-before: always; }
+h2 { font-size: 20pt; margin: 17pt 0 6pt 0; }
+h3 { font-size: 17pt; margin: 14pt 0 5pt 0; }
+h4 { font-size: 14pt; margin: 12pt 0 4pt 0; }
+h5 { font-size: 12pt; margin: 10pt 0 4pt 0; }
+
+pre, code { font-family:"Source Code Pro","Garamond-Math",monospace; }
+code { font-size: .86em; }
+pre { font-size: .80em; line-height: 1.3; white-space: pre-wrap; overflow-wrap: break-word;
+      margin: .5em 0; }
+
+table { border-collapse: collapse; margin: .6em 0; width: 100%; font-size: .95em;
+        border-top: 1.1pt solid #000; border-bottom: 1.1pt solid #000; }
+thead th { border-bottom: .6pt solid #000; }
+th, td { padding: 3px 8px; text-align: left; vertical-align: top; }
+
+blockquote { margin: .5em 0 .5em 1.5em; }
+
+.titlepage { page-break-after: always; text-align: center; }
+.titlepage .kicker { font-variant: small-caps; font-size: 12pt; letter-spacing: .04em;
+                     margin-top: 4.2cm; }
+.titlepage hr.rule { border: none; border-top: 1.2pt solid #000; margin: 1.1cm 0; }
+.titlepage hr.thin { border: none; border-top: .5pt solid #000; margin: .9cm 0; }
+.titlepage .maintitle { font-size: 24pt; font-weight: bold; line-height: 1.1; margin: .2cm 0; hyphens: none; }
+.titlepage .edition { font-size: 15pt; margin: .5cm 0; }
+.titlepage .imprint { margin-top: 6cm; font-size: 11pt; }
+.titlepage .imprint .author { margin-top: .7cm; }
+.titlepage .licence { margin-top: 2cm; font-size: 8.5pt; line-height: 1.3; }
+
+.frontmatter { page-break-after: always; }
+.frontmatter h1 { page-break-before: avoid; }
+.colophon { margin-top: 1em; }
+
+#TOC { page-break-after: always; }
+#TOC > p, #TOC .toc-title { font-size: 20pt; font-weight: bold; margin: 0 0 .9em 0; }
+#TOC ul { list-style: none; margin: 0; padding: 0; }
+#TOC ul ul { margin-left: 1.4em; }
+#TOC li { margin: .12em 0; }
+#TOC a { text-decoration: none; color: black; }
+#TOC a::after { content: leader('.') target-counter(attr(href), page); }
+
+@media screen {
+  html { max-width: 46em; margin: 1.5em auto; padding: 0 1.2em; }
+  #TOC a::after { content: leader('.'); }
+}
